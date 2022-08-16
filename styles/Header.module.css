@@ -49,3 +49,32 @@
 .navegacion a:hover {
   background-color: var(--primary);
 }
+
+.modelo {
+  color: var(--blanco);
+  margin-top: 5rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .modelo {
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.modelo h1 {
+  font-size: 7rem;
+}
+
+.modelo p:first-of-type {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  font-size: 2.2rem;
+}
+
+.precio {
+  font-size: 6rem;
+}
