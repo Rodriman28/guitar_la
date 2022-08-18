@@ -44,10 +44,9 @@ const Producto = ({ guitarra, agregarCarrito }) => {
             <label>Cantidad:</label>
 
             <select
-              onChange={(e) => setCandidad(parseInt(e.target.value))}
+              onChange={(e) => setCantidad(parseInt(e.target.value))}
               value={cantidad}
             >
-              <option value=""> -- Seleccione -- </option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
